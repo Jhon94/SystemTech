@@ -1,0 +1,82 @@
+[
+  {
+    "id":1,
+    "img": "src/assets/catalogoServiciosImgs/sharedimage15.jpg",
+    "name": "Servicios de infraestructura en la nube",
+    "price": 3000000,
+    "category": "Servicio",
+    "description": "Nuestros servicios de infraestructura en la nube te ofrecen una plataforma robusta y flexible para tu negocio. Proveemos los recursos tecnológicos esenciales (servidores, almacenamiento, redes) de manera escalable, para que solo pagues por lo que realmente usas. Esto te permite enfocarte en la innovación y el crecimiento, mientras nosotros nos encargamos del mantenimiento."
+  },
+  {
+    "id":2,
+    "img": "src/assets/catalogoServiciosImgs/Ciberseguridad.png",
+    "name": "Ciberseguridad",
+    "price": 3000000,
+    "category": "Servicio",
+    "description": "Protege la integridad de tus sistemas y datos con soluciones avanzadas de ciberseguridad. Ofrecemos monitoreo constante, prevención de intrusiones, análisis de vulnerabilidades y respuesta ante incidentes. Nuestro enfoque integral te asegura un entorno confiable, minimizando riesgos y manteniendo la continuidad de tu negocio frente a amenazas digitales emergentes."
+  },
+  {
+    "id":3,
+    "img": "src/assets/catalogoServiciosImgs/sharedimage18.jpg",
+    "name": "Soporte técnico y mesa de ayuda",
+    "price": 3000000,
+    "category": "Servicio",
+    "description": "Nuestro servicio de soporte técnico garantiza el correcto funcionamiento de tu infraestructura tecnológica. Contamos con especialistas disponibles para resolver incidentes, brindar mantenimiento preventivo y apoyar en la optimización de sistemas. Con atención rápida y personalizada, aseguramos que tu operación no se detenga y que tu equipo siempre tenga respaldo confiable."
+  },
+  {
+    "id":4,
+    "img": "src/assets/catalogoServiciosImgs/sharedimage14.jpg",
+    "name": "Consultoría tecnológica",
+    "price": 3000000,
+    "category": "Servicio",
+    "description": "Ofrecemos consultoría estratégica en tecnología para acompañar a tu empresa en procesos de innovación y transformación digital. Evaluamos tu entorno actual, diseñamos planes de mejora y recomendamos las soluciones que mejor se adapten a tus necesidades. Nuestro objetivo es ayudarte a aprovechar herramientas tecnológicas para aumentar eficiencia y lograr tus metas."
+  },
+  {
+    "id":5,
+    "img": "src/assets/catalogoServiciosImgs/sharedimage16.jpg",
+    "name": "Desarrollo e integracion de CRM y ERP",
+    "price": 3000000,
+    "category": "Servicio",
+    "description": "Creamos e integramos soluciones de CRM y ERP que centralizan la gestión de clientes, ventas, procesos y recursos de tu empresa. Con plataformas adaptadas a tu sector, optimizas la comunicación, la toma de decisiones y la eficiencia en todas las áreas. Te ayudamos a implementar sistemas escalables y seguros que potencian tu crecimiento y competitividad."
+  },
+  {
+    "id":6,
+    "img": "src/assets/catalogoServiciosImgs/sharedimage17.jpg",
+    "name": "Inteligencia artificial",
+    "price": 3000000,
+    "category": "Servicio",
+    "description": "Implementamos soluciones de inteligencia artificial diseñadas para impulsar la innovación en tu empresa. Aplicamos algoritmos avanzados para analizar datos, automatizar procesos, mejorar la toma de decisiones y personalizar experiencias. Desde chatbots hasta sistemas predictivos, la IA se convierte en una herramienta clave para transformar la manera en que operas."
+  },
+  {
+    "id":7,
+    "img": "src/assets/catalogoServiciosImgs/sharedimage7.jpg",
+    "name": "Automatización de procesos",
+    "price": 3000000,
+    "category": "Servicio",
+    "description": "Diseñamos soluciones de automatización que reducen errores humanos y mejoran la productividad. Al eliminar tareas repetitivas, tu equipo puede concentrarse en actividades estratégicas. Nuestros sistemas permiten integrar flujos de trabajo, optimizar recursos y ahorrar tiempo. La automatización se convierte en un aliado que impulsa la eficiencia y el crecimiento empresarial."
+  },
+  {
+    "id":8,
+    "img": "src/assets/catalogoServiciosImgs/analisisdedatos.png",
+    "name": "Analisis de datos",
+    "price": 3000000,
+    "category": "Servicio",
+    "description": "Convierte grandes volúmenes de datos en información útil con nuestras soluciones de análisis avanzado. Te ayudamos a identificar patrones, optimizar procesos y mejorar la toma de decisiones. Con metodologías modernas de business intelligence y big data, obtendrás reportes claros y estratégicos que brindan ventaja competitiva y apoyan el desarrollo sostenible de tu negocio."
+  },
+  {
+    "id":9,
+    "img": "src/assets/catalogoServiciosImgs/desarrollositioweb.png",
+    "name": "Desarrollo de sitios web",
+    "price": 3000000,
+    "category": "Servicio",
+    "description": "Diseñamos y desarrollamos sitios web modernos, escalables y totalmente adaptados a tu marca. Nos enfocamos en ofrecer experiencias rápidas, seguras y responsivas que conecten con tus clientes. Desde páginas corporativas hasta portales complejos, garantizamos una estructura optimizada para SEO, alto rendimiento y facilidad de administración para tu equipo interno."
+  },
+  {
+    "id":10,
+    "img": "src/assets/catalogoServiciosImgs/sharedimage19.jpg",
+    "name": "Desarrollo de software a la medida",
+    "price": 3000000,
+    "category": "Servicio",
+    "description": "Creamos software personalizado que se ajusta a los objetivos y procesos específicos de tu organización. Desde el análisis de requisitos hasta la implementación, nuestro equipo desarrolla soluciones robustas, escalables y seguras. Con un enfoque flexible, aseguramos que la herramienta evolucione con tu negocio, aportando valor real y mejorando continuamente la productividad."
+  }
+]

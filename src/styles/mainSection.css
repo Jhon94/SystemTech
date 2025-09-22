@@ -1,0 +1,33 @@
+/* MAINSECTION */
+.mainSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom:10%;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainContent h1 {
+    font-size: 3rem;
+    color: #05173A;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.mainContent p {
+    font-size: 1.2rem;
+    color: #05173abb;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    max-width: 80%;
+    text-align: left;
+}

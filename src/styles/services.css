@@ -1,0 +1,97 @@
+/* SERVICES SECTION */
+.servicesContainer {
+    background-color: #d9d9d956;
+    width: 100%;
+    margin: auto auto;
+    padding: 5rem 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+}
+
+.servicesContainer h3 {
+    color: #05173A;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    background: transparent;
+}
+
+.servicesGrid {
+    background: transparent;
+    box-shadow: 0 0px 20px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    display: grid;
+    padding: 2% 5%;
+    padding-top: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.grid-item1 {
+    grid-column: span 2;
+    grid-row: span 1;
+    width: 100%;
+    height: auto;
+    background: transparent;
+}
+
+.grid-item1 img {
+    width: 100%;
+    height: 20rem;
+    border-radius: 1.5rem;
+    object-fit: cover;
+}
+
+.grid-item2 {
+    grid-column: span 1;
+    grid-row: span 2;
+    background: transparent;
+}
+
+.grid-item2 img {
+    width: 100%;
+    height: 35rem;
+    border-radius: 1.5rem;
+}
+
+.serviceText {
+    grid-column: span 2;
+    grid-row: span 1;
+    background: transparent;
+}
+
+.serviceText p {
+    font-size: 1rem;
+    color: #05173abb;
+    line-height: 2.5;
+    text-align: left;
+    background:transparent;
+}
+
+.catalogoLink {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: transparent;
+}
+
+.catalogoLinkButton {
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    background-color: #05173A;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+
+}
+
+.catalogoLinkButton:hover {
+    color: #ffffff85;
+    transform: translateY(-5px);
+}
+

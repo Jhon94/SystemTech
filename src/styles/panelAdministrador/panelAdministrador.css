@@ -1,0 +1,45 @@
+.containerPanelAdmin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.panelAdmin{
+    width: 80%;
+    height: 75vh;
+    display: flex;
+}
+
+
+.infoAdmin{
+    width: 80%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    margin-left: 2rem;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.infoAdminText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoAdminText h1 {
+    padding-top: 10%;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #05173a;
+}
+
+.infoAdminText p {
+    width: 90%;
+    font-size: 1.2rem;
+    color: #05173ab9;
+    margin-top: 1rem;
+    text-align: left;
+    line-height: 2rem;
+}

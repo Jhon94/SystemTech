@@ -1,0 +1,40 @@
+.menuAdmin{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    background: linear-gradient(90deg,
+            rgba(6, 45, 129, 0.9) 34%,
+            rgba(12, 7, 150, 0.753) 100%);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menuAdminOptions{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    width: 100%;
+    background: transparent;
+}
+
+.menuAdminOptions h4{
+    background: transparent;
+    font-size: 1.2rem;
+}
+.menuAdminOptions a{
+    background: #eee9e94d;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    padding: 5% 1%;
+    transition: .3s all;
+}
+
+.menuAdminOptions a:hover{
+    background: #eee9e9b6;
+    transform: translateY(-4px);
+}

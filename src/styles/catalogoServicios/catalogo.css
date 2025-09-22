@@ -1,0 +1,148 @@
+/* SERVICES SECTION */
+.servicesSection {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 3rem;
+}
+
+.serviceCardSection {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: #05173a;
+    font-weight: 700;
+    font-size: 6vh;
+    margin: 4% 0;
+}
+
+.containerCard {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Tablets (pantallas medianas) */
+@media (max-width: 1024px) {
+    .serviceCardSection {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columnas */
+    }
+}
+
+/* Celulares (pantallas pequeñas) */
+@media (max-width: 768px) {
+    .serviceCardSection {
+        grid-template-columns: 1fr;
+        /* 1 columna */
+    }
+}
+
+
+.modalCatalogo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.modalBoxCatalogo {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    max-width: 800px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.closeBtnCatalogo {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #05173a;
+}
+
+.modalTitleCatalogo {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #05173a;
+}
+
+.modalContentCatalogo {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.modalContentCatalogo img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.modalInfoCatalogo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.modalInfoCatalogo h4 {
+    margin:4% 0;
+    color: #05173a;
+}
+
+.modalInfoCatalogo p {
+    color: #05173abe;
+}
+
+.btnPrimaryCatalogo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #007bff, #5a5aff);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btnPrimaryCatalogo:hover {
+    background: linear-gradient(90deg, #0056b3, #3a3aff);
+    transform: translateY(6px);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

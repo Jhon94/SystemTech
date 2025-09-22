@@ -1,0 +1,45 @@
+/* HEADER */
+header {
+    border: transparent;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 16px rgba(5, 23, 58, 0.2);
+    padding: 2% 5%;
+    margin: 2% 3%;
+}
+
+header h3 {
+    color: #05173A;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #05173ab0;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: 0.3s all;
+}
+
+header nav ul li a:hover {
+    color: #05173a;
+    transform: translateY(-10px);
+}
